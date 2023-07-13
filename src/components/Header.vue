@@ -18,6 +18,7 @@ export default {
 header {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   align-items: center;
   margin-bottom: 20px;
 }

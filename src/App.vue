@@ -27,19 +27,28 @@ html {
 
 body {
   font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
+  margin-top: 1rem;
   max-width: 500px;
   min-height: 300px;
-  border: 2px solid blue;
+  border: 1px solid blue;
   padding: 1.5rem;
   border-radius: 5px;
 }
 
 .btn {
   display: inline-block;
-  background-color: red;
-  color: wheat;
+  background-color: rgb(34, 34, 34);
+  padding: 0.5rem 1rem;
+  border: none;
+  font-family: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
 }
 </style>
